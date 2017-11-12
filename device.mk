@@ -360,6 +360,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.sanders.rc \
     init.mmi.usb.rc \
+    init.safailnet.rc \
     init.qcom.rc \
     init.qcom.sensors.sh
 
