@@ -62,9 +62,6 @@ on fs
     mount_all /vendor/etc/fstab.qcom --early
     write /proc/sys/vm/swappiness 100
 
-    # Start HW service manager early
-    start hwservicemanager
-
 on late-fs
     # Start services for bootanim
     start servicemanager
