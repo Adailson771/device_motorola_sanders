@@ -137,7 +137,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.fm.transmitter=false
+    vendor.bluetooth.soc=smd \
+    ro.fm.transmitter=false \
+    ro.vendor.fm.use_audio_session=true \
+    vendor.hw.fm.init=0
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \

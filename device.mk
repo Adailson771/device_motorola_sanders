@@ -185,9 +185,9 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni \
-    init.qti.fm.sh
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
 
 # Fwk-detect
 PRODUCT_PACKAGES += \
@@ -350,7 +350,6 @@ PRODUCT_ODM_PROPERTIES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.qcom.fm.sh \
     wlan_carrier_bin.sh
 
 PRODUCT_PACKAGES += \
